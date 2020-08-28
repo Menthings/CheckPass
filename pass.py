@@ -1,6 +1,10 @@
 #coding:utf-8
 
-print("\nTon mot de passe doit contenir au minimum 8 caractères.")
+import os
+
+os.system('cls' if os.name == 'nt' else 'clear')
+
+print("Ton mot de passe doit contenir au minimum 8 caractères.")
 print("Ton mot de passe doit contenir au minimum 1 lettre en minuscule.")
 print("Ton mot de passe doit contenir au minimum 1 lettre en majuscule.")
 print("Ton mot de passe doit contenir au minimum 1 chiffre.")
